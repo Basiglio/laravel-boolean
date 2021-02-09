@@ -36,16 +36,6 @@
             </tr>
             @endforeach
           </table>
-      
-      
-      
-      
-      {{-- <ul>
-            <li>
-              {{ $car->name }}
-            </li>
-          </ul> --}}
-      
     </div>
   </div>
 </body>
