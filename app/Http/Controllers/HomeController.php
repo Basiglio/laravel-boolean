@@ -10,11 +10,10 @@ class HomeController extends Controller
     public function index() {
 
         $cars = Cars::all();
-        dump($cars);
+        // dump($cars);
         // QUI METTO LA CALLBACK CON IL RETURN DEL WEB.PHP
-        return view('home');
+        return view('home', compact('cars'));
     }
 
-    
     
 }

@@ -12,6 +12,36 @@
     <h1>Le Mie Macchine</h1>
     <div class="box">
       
+          <table>
+            <tr>
+              <th>
+                NOME
+              </th>
+              <th>
+                BRAND
+              </th>
+              <th>
+                TARGA
+              </th>
+            </tr>
+            @foreach ($cars as $car)
+            <tr>
+              <td>{{$car->name}}</td>
+              <td>{{$car->brand}}</td>
+              <td>{{$car->targa}}</td>
+            </tr>
+            @endforeach
+          </table>
+      
+      
+      
+      
+      {{-- <ul>
+            <li>
+              {{ $car->name }}
+            </li>
+          </ul> --}}
+      
     </div>
   </div>
 </body>
